@@ -1,7 +1,12 @@
 #!/bin/bash
 
-while IFS= read -r line;   #IFS represents to read line by line...
-do   
+while IFS= read -r line; do
+    # Process each line here
     echo "Processing line: $line"
-
-done < 20script.sh
+    # Example: you can perform other operations with the $line variable
+    # For instance:
+    # some_command "$line"
+    # if [[ "$line" == "specific_text" ]]; then
+    #    echo "Found specific text!"
+    # fi
+done < 20-script-1.sh
