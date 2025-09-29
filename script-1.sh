@@ -4,5 +4,5 @@ NAME=INDIA
 echo "My Country: $NAME"
 echo "PID of the SCRIPT-1: $$"
 
-sh script2.sh
+sh script-2.sh
 
